@@ -14,7 +14,7 @@
 
 # See docs/development.md for details on how to test this image.
 
-FROM gcr.io/openssf/scorecard:v4.3.1@sha256:6224d1a27c35e7b216befba798cb782adb400047caa60fc1bea30030da392a1b as base
+FROM gcr.io/openssf/scorecard:v4.7.0@sha256:7071477a9efd45797181c8501ab98f41f71d734e3cbdb2da6776155a17da3cc9 as base
 
 # Build our image and update the root certs.
 # TODO: use distroless.
