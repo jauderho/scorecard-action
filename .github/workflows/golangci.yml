@@ -15,7 +15,7 @@ jobs:
       matrix:
         os: [ ubuntu-latest ]
     steps:
-      - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579 #v2.4.0
+      - uses: actions/checkout@1f9a0c22da41e6ebfa534300ef656657ea2c6707 #v2.4.0
         # https://github.com/mvdan/github-actions-golang#how-do-i-set-up-caching-between-builds
       - uses: actions/cache@48af2dc4a9e8278b89d7fa154b955c30c6aaab09 #v2.1.7
         with:
