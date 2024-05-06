@@ -9,7 +9,7 @@ require (
 	github.com/ossf/scorecard/v4 v4.10.5
 	github.com/sigstore/cosign v1.13.1
 	github.com/spf13/cobra v1.7.0
-	golang.org/x/net v0.9.0
+	golang.org/x/net v0.25.0
 )
 
 require (
@@ -262,14 +262,14 @@ require (
 	go.uber.org/multierr v1.9.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
 	gocloud.dev v0.29.0 // indirect
-	golang.org/x/crypto v0.6.0 // indirect
+	golang.org/x/crypto v0.23.0 // indirect
 	golang.org/x/exp v0.0.0-20230304125523-9ff063c70017 // indirect
 	golang.org/x/mod v0.9.0 // indirect
 	golang.org/x/oauth2 v0.5.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/sys v0.7.0 // indirect
-	golang.org/x/term v0.7.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
+	golang.org/x/term v0.20.0 // indirect
+	golang.org/x/text v0.15.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	golang.org/x/tools v0.6.1-0.20230217175706-3102dad5faf9 // indirect
 	golang.org/x/vuln v0.0.0-20230303230808-d3042fecc4e3 // indirect
