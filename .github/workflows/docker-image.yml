@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab
+    - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29
     - name: Build the Docker image
       run: docker build . --file Dockerfile 
